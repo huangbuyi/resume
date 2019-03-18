@@ -2,13 +2,15 @@
 
 年龄：25
 
-职位：Web前端开发工程师
+职位：前端开发
 
 邮箱：huang4bin@gmail.com
 
 手机号码：18659219763
 
 微信账号：18659219763
+
+---
 
 ## 工作经历
 
@@ -29,6 +31,7 @@
 参与小程序部分产品功能的原型设计和交互设计。团队没有专门的交互设计师，技术领导缺乏设计经验。主动参与了部分新功能的设计，并制作了原型图。在充分阐述了思路后，设计得到了团队的认可。
 
 ### 微联(厦门)信息科技有限公司
+
 时间：2017.02 - 2017.11 | 职位：Web前端开发
 
 公司主营互联网装修服务。
@@ -40,17 +43,20 @@
 负责营销活动 H5 页面的开发。
 
 ### 学习
+
 时间：2016.07-2017.02 
 
 自学计算机知识
 
 ### 郎明纳斯(厦门)有限公司
+
 时间：2015.07 - 2016.07 | 职位：NPI 工程师(新产品导入工程师)
 
 美国流明公司(Luminus Devices)厦门分公司，主营高附加值 LED 产品。
 
 负责特殊照明 Led 产品的研发和测试，工艺流程的改善和优化，以及量产导入工作。
 
+---
 
 ## 技能
 
@@ -65,6 +71,8 @@
 - 能够使用原型工具 Sketch，Axure
 - 具备微信小程序开发，小程序组件开发能力
 
+---
+
 ## 教育经历
 
 ### 福建师范大学
@@ -73,9 +81,13 @@
 
 奖项：福建省创业设计大赛银奖、院级机械设计一等奖、院级光学设计二等奖等。
 
+---
+
 ## 兴趣爱好
 
 游泳、电影、电子游戏、看书、健身
+
+---
 
 ## 附录
 
@@ -83,3 +95,28 @@
 - [SegmentFault 主页](https://segmentfault.com/u/notebin)
 - [LeetCode 主页](https://leetcode.com/huang4bin/)
 - [个人博客](https://hsb0.com/blog)
+
+---
+
+## 二维码
+
+简历地址
+
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_online_resume_qrcode.png" width="150">
+
+Github 主页
+
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_blog_qrcode.png" width="150">
+
+LeetCode 主页
+
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_leetcode_qrcode.png" width="150">
+
+SegmentFault 主页
+
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_segmentfault_qrcode.png" width="150">
+
+
+个人博客
+
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_blog_qrcode.png" width="150">
