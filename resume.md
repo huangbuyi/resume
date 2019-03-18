@@ -44,7 +44,7 @@
 
 ### 学习
 
-时间：2016.07-2017.02 
+时间：2016.07 - 2017.02 
 
 自学计算机知识
 
@@ -92,8 +92,8 @@
 ## 附录
 
 - [Github 主页](https://github.com/huangbuyi)
-- [SegmentFault 主页](https://segmentfault.com/u/notebin)
 - [LeetCode 主页](https://leetcode.com/huang4bin/)
+- [SegmentFault 主页](https://segmentfault.com/u/notebin)
 - [个人博客](https://hsb0.com/blog)
 
 ---
