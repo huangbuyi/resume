@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>resume.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body>
+<p>姓名：黄世斌</p>
+<p>年龄：25</p>
+<p>职位：前端开发</p>
+<p>邮箱：huang4bin@gmail.com</p>
+<p>手机号码：18659219763</p>
+<p>微信账号：18659219763</p>
+<h1 id="%E5%B7%A5%E4%BD%9C%E7%BB%8F%E5%8E%86">工作经历</h1>
+<h2 id="%E5%8E%A6%E9%97%A8%E5%B0%8F%E6%B3%8A%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8">厦门小泊科技有限公司</h2>
+<p>时间：2017.11 - 至今 | 职位：前端开发</p>
+<p>厦门小泊科技有限公司成立于2015年，是城市智慧停车平台服务商，提供停车费的移动支付、停车位的闲时共享等服务。在厦门地区覆盖百余个停车场，每天为数万名车主用户提供智慧停车服务。</p>
+<p>主要负责微信小程序开发、网页后台开发、手机 H5 网页开发、微信 H5 开发。</p>
+<h3 id="%E5%B0%8F%E6%B3%8A%E5%81%9C%E8%BD%A6%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E3%80%81%E5%B0%8F%E6%B3%8A%E5%AE%A2%E6%9C%8D%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F">小泊停车微信小程序、小泊客服微信小程序</h3>
+<p>负责小泊停车小程序、小泊客服小程序的开发、维护和管理。小泊停车小程序为停车用户提供线上缴费、预约停车、月卡和储值卡办理等功能，为车位业主提供共享车位、管理车位等功能，是公司在 C 端最重要的入口。接手前，项目几经易手，存在<strong>管理混乱、缺乏文档、代码质量低</strong>等问题，修复 bug 和更新工作十分困难，技术人员不得不经常加班。接手项目后，阅读和理解代码是第一个挑战，为此除了和设计师、技术人员频繁沟通外，手绘了整个应用的交互原型，加深了对产品的理解，使得后续优化工作得以顺利进行。</p>
+<p>这些优化包括：一，优化管理。包括规范版本号、增加版本更新日志、统一编码风格并添加语法检测、用 Git 进行版本管理和团队协作等；二，重构代码。包括模块化和组件化、分离数据层与视图层、用 Promise 改善异步流程、缓存管理等，这一过程是渐进式的，在保证兼容旧代码的前提下，一个页面一个页面的进行重构；三，提升用户体验。添加了加载提示、错误消息提示、减少加载时间等，协助设计师制定设计规范，主动联系腾讯地图关联小程序，使用户能够使用小程序进行导航等。经过半年多的优化后，代码质量得到极大提升，<strong>每个页面代码量减少了40%-70%，排查 bug 平均时间从一天减少到1个小时</strong>。</p>
+<p>小泊客服小程序主要提供客服 QA 功能。</p>
+<h3 id="%E5%81%9C%E8%BD%A6%E6%94%BE%E8%A1%8C%E5%90%8E%E5%8F%B0">停车放行后台</h3>
+<p>负责商户停车放行后台的开发、维护和部署。为停车场商户提供车辆优惠放行、优惠券管理和打印、停车费充值等功能。该项目是 Web 单页面应用，使用了 Vue 框架，有两个客户端：PC 端项目使用 elment-ui 组件库；手机端项目使用 mint-ui 组件库。另外，还承担了该项目 Nginx 服务配置工作，以及项目部署工作。项目使用 Git 进行部署，部署速度比公司以往流程快数倍。目前项目稳定运行，反馈 bug 不多。最麻烦的一次是，软件要适配标签打印机，打印机没有 MacOS 系统驱动(开发设备是 MacOS 系统)，需要用虚拟机安装 Windows 系统，在虚拟机中调试打印功能。</p>
+<h3 id="%E5%85%B6%E5%AE%83">其它</h3>
+<p>负责营销活动 H5 页面，小程序内嵌 H5 页面的开发。</p>
+<p>推动改善前、后端协作方式。公司后端项目有一定历史积淀，业务逻辑复杂，接口文档是用 Excel 写的，存在格式不规范、更新不及时、接口不全等问题，前端技术人员上手困难，徒增大量前、后端沟通成本。致力于推动后端使用自动化文档工具、撰写清晰的文档说明、规范接口数据格式和统一错误码、使用自动化单元测试而非手动测试。经过与后端技术人员不断的沟通和协商，前三项已经在新项目中得到实施。</p>
+<p>参与小程序部分产品功能的原型设计和交互设计。团队没有专门的交互设计师，技术领导缺乏设计经验。于是，主动参与了部分新功能的交互设计，并制作了原型图。设计过程中，借鉴了其它成熟产品的交互设计，结合自身业务特点，并与团队成员充分沟通，因此设计得到了团队的认可。</p>
+<h2 id="%E5%BE%AE%E8%81%94%E5%8E%A6%E9%97%A8%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8">微联(厦门)信息科技有限公司</h2>
+<p>时间：2017.02 - 2017.11 | 职位：Web前端开发</p>
+<p>公司主营互联网装修服务。</p>
+<p>主要负责手机 H5 网页开发、微信 H5 开发。</p>
+<h3 id="%E5%95%86%E6%88%B7%E6%A0%B8%E9%94%80%E5%90%8E%E5%8F%B0">商户核销后台</h3>
+<p>负责商户核销后台的开发和维护。后台主要功能是为商户提供优惠券核销功能。软件为手机单页面应用，使用 React 进行开发。</p>
+<h3 id="%E7%BA%BF%E4%B8%8A%E8%B4%B7%E6%AC%BE%E8%B6%85%E5%B8%82">线上贷款超市</h3>
+<p>负责线上贷款超市的开发和维护。软件主要功能是提供聚合第三方贷款平台。软件为手机单页面应用，使用 React 进行开发。</p>
+<h3 id="%E5%85%B6%E5%AE%83">其它</h3>
+<p>负责营销活动 H5 页面的开发。</p>
+<h2 id="%E5%AD%A6%E4%B9%A0">学习</h2>
+<p>时间：2016.07 - 2017.02</p>
+<p>自学计算机知识</p>
+<h2 id="%E9%83%8E%E6%98%8E%E7%BA%B3%E6%96%AF%E5%8E%A6%E9%97%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8">郎明纳斯(厦门)有限公司</h2>
+<p>时间：2015.07 - 2016.07 | 职位：NPI 工程师(新产品导入工程师)</p>
+<p>美国流明公司(Luminus Devices)厦门分公司，主营高附加值 LED 产品。</p>
+<p>负责特殊照明 Led 产品的研发和测试，工艺流程的改善和优化，以及量产导入工作。参与项目包括：四色舞台灯，高亮度车灯。</p>
+<h1 id="%E6%8A%80%E8%83%BD">技能</h1>
+<ul>
+<li>JavaScript、HTML、CSS、ES6</li>
+<li>React、Vue，及周边技术，React、Vue 组件开发，开源过一个 React 拾色器和一个 Vue 拾色器组件，见附录 Github 主页</li>
+<li>Webpack，Gulp 及相关插件</li>
+<li>熟悉 Linux 系统操作，有两台私人 Linux CentOS 系统云服务器，一台作为自用代理服务器，一台作为 Web 应用服务器</li>
+<li>熟悉 HTTP，TCP/IP 网络协议</li>
+<li>熟悉 NodeJS，Express 和 Koa</li>
+<li>具备一定算法基础，LeetCode Acepted 484 题，Acceptance Rate 66.1%，见附录 LeetCode 主页</li>
+<li>能够无障碍阅读英文文档</li>
+<li>能够使用原型工具 Sketch，Axure</li>
+<li>具备微信小程序开发，小程序组件开发能力</li>
+</ul>
+<h1 id="%E6%95%99%E8%82%B2%E7%BB%8F%E5%8E%86">教育经历</h1>
+<h2 id="%E7%A6%8F%E5%BB%BA%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6">福建师范大学</h2>
+<p>时间：2011.09 - 2015.07 | 专业：光信息科学与技术(一本)</p>
+<p>奖项：福建省创业设计大赛银奖、院级机械设计一等奖、院级光学设计二等奖等。</p>
+<h1 id="%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">兴趣爱好</h1>
+<p>游泳、电影、电子游戏、看书、健身</p>
+<h1 id="%E9%99%84%E5%BD%95">附录</h1>
+<ul>
+<li><a href="https://github.com/huangbuyi">Github 主页</a></li>
+<li><a href="https://leetcode.com/huang4bin/">LeetCode 主页</a></li>
+<li><a href="https://segmentfault.com/u/notebin">SegmentFault 主页</a></li>
+<li><a href="https://hsb0.com/blog">个人博客</a></li>
+</ul>
+<h1 id="%E4%BA%8C%E7%BB%B4%E7%A0%81">二维码</h1>
+<p>简历地址</p>
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_online_resume_qrcode.png" width="150">
+<p>Github 主页</p>
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_blog_qrcode.png" width="150">
+<p>LeetCode 主页</p>
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_leetcode_qrcode.png" width="150">
+<p>SegmentFault 主页</p>
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_segmentfault_qrcode.png" width="150">
+<p>个人博客</p>
+<img src="https://raw.githubusercontent.com/huangbuyi/resume/master/images/huangshibin_blog_qrcode.png" width="150">
+
+</body>
+</html>
